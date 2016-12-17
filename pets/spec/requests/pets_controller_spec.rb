@@ -10,9 +10,9 @@ describe PetsController do
           wit: 33,
           senses: 44,
           experience: 100
-      }
+      }.to_json
 
-      post "/pets", request_body
+      post "/pets", request_body, { "CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json" }
 
       expect(response.status).to eq 201
 
