@@ -1,28 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Setup
 
-Things you may want to cover:
+=== Notes
 
-* Ruby version
+* Sidekiq Worker: I serialized just the contest_id to the sidekiq worker so
+sidekiq would not persist state, just an identifier. This is to prevents the case where
+the queue backs up and the contest's state changes unbeknowst to to the worker.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

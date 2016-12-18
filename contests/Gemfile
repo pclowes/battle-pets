@@ -4,6 +4,7 @@ gem "rails", "4.2.1"
 gem "rake", "~> 11.1.2"
 gem "sdoc", "~> 0.4.0", group: :doc
 gem "pg", "0.19.0"
+gem "sidekiq"
 
 
 group :development, :test do

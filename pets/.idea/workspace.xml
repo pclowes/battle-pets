@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="15d21d57-2f3e-431d-ab2d-34934d37d1c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../contests/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/app/models/contest.rb" afterPath="$PROJECT_DIR$/../contests/app/models/contest.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/db/seeds.rb" afterPath="$PROJECT_DIR$/../contests/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/spec/requests/contests_controller_spec.rb" afterPath="$PROJECT_DIR$/../contests/spec/requests/contests_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/Gemfile" afterPath="$PROJECT_DIR$/../contests/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/README.rdoc" afterPath="$PROJECT_DIR$/../contests/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/app/services/creation_service.rb" afterPath="$PROJECT_DIR$/../contests/app/services/creation_service.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../contests/spec/services/creation_service_spec.rb" afterPath="$PROJECT_DIR$/../contests/spec/services/creation_service_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pets.iml" afterPath="$PROJECT_DIR$/.idea/pets.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="pets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -662,8 +663,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="960" y="23" width="960" height="1053" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

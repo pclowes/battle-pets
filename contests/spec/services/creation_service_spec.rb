@@ -1,8 +1,16 @@
 require "rails_helper"
+require "sidekiq/testing"
 
 describe CreationService do
+
+  before do
+    Sidekiq::Testing::inline!
+  end
+
   describe "#create" do
-    it "persists contests and contestants from hash of attributes" do
+    let(:evaluation_worker) { class_double(EvaluationWorker, perform_async: nil)}
+
+    it "persists contests and contestants and calls the evaluation worker" do
       params = {
           category: "strength",
           contestants: [
@@ -37,8 +45,6 @@ describe CreationService do
       contest = Contest.first
       expect(contest.category).to eq "strength"
 
-      # expect(EvaluationService).to have_receieved(:perform).with(contest)
-
       expect(Contestant.count).to eq 2
       contestant_1 = Contestant.find_by(name: "Contestant 1")
       expect(contestant_1.pet_id).to eq 1
@@ -61,7 +67,6 @@ describe CreationService do
       expect(contestant_2.experience).to eq 120
       expect(contestant_2.contest).to eq contest
       expect(contestant_2.winner).to eq true
-
     end
   end
 end
