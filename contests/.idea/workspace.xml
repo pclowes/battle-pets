@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/contests@ContestService_create_persists_contestants_from_hash_of_attributes__contests.coverage" NAME="ContestService#create persists contestants from hash of attributes: contests Coverage Results" MODIFIED="1482013203210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@ContestantCreationService_creates_contestants__contests.coverage" NAME="ContestantCreationService creates contestants: contests Coverage Results" MODIFIED="1482009654836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@ContestantService_create_creates_contestants__contests.coverage" NAME="ContestantService#create creates contestants: contests Coverage Results" MODIFIED="1482010130643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@Contests_API_Post__contests_creates_a_contest_and_associated_contestants__contests.coverage" NAME="Contests API Post /contests creates a contest and associated contestants: contests Coverage Results" MODIFIED="1482013507821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@Contests_API_Post__contests_creates_a_contest_and_associated_contestants__contests.coverage" NAME="Contests API Post /contests creates a contest and associated contestants: contests Coverage Results" MODIFIED="1482091784544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_Post__contests_creates_a_contest__contests.coverage" NAME="Contests API Post /contests creates a contest: contests Coverage Results" MODIFIED="1482009303535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API__contests.coverage" NAME="Contests API: contests Coverage Results" MODIFIED="1482011872968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService__contests.coverage" NAME="CreationService: contests Coverage Results" MODIFIED="1482013447328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
@@ -38,14 +38,14 @@
     <favorites_list name="contests" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5974441">
+    <splitter split-orientation="horizontal" split-proportion="0.49201277">
       <split-first>
         <leaf>
           <file leaf-file-name="contests_controller.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -54,8 +54,18 @@
           <file leaf-file-name="creation_service.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/services/creation_service.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12357724">
-                  <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.58699185">
+                  <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -75,7 +85,7 @@
             <entry file="file://$PROJECT_DIR$/app/models/contest.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                  <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -95,20 +105,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="contests_controller_spec.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="contests_controller_spec.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.07317073">
+                  <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="creation_service_spec.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="creation_service_spec.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/services/creation_service_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3203252">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
                   <folding />
                 </state>
@@ -130,17 +140,18 @@
         <option value="$PROJECT_DIR$/spec/services/contestant_creation_service_spec.rb" />
         <option value="$PROJECT_DIR$/spec/services/contestant_service_spec.rb" />
         <option value="$PROJECT_DIR$/app/services/contestant_service.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/contests_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/services/contest_creation_service.rb" />
         <option value="$PROJECT_DIR$/spec/services/contest_creation_service_spec.rb" />
         <option value="$PROJECT_DIR$/app/services/contest_service.rb" />
-        <option value="$PROJECT_DIR$/app/models/contest.rb" />
         <option value="$PROJECT_DIR$/app/models/contestant.rb" />
         <option value="$PROJECT_DIR$/spec/services/contest_service_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contests_controller.rb" />
         <option value="$PROJECT_DIR$/spec/services/creation_service_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161217004639_create_contestants.rb" />
         <option value="$PROJECT_DIR$/app/services/creation_service.rb" />
+        <option value="$PROJECT_DIR$/app/models/contest.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/contests_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -335,7 +346,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="RSpec.CreationService#create persists contests and contestants from hash of attributes: contests">
+  <component name="RunManager" selected="RSpec.Contests API Post /contests creates a contest and associated contestants: contests">
     <configuration default="false" name="Contests API Post /contests creates a contest and associated contestants: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="contests" />
@@ -818,8 +829,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.CreationService#create persists contests and contestants from hash of attributes: contests" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Contests API Post /contests creates a contest and associated contestants: contests" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Contests API Post /contests creates a contest and associated contestants: contests" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.CreationService#create persists contests and contestants from hash of attributes: contests" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.CreationService: contests" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.ContestService#create persists contestants from hash of attributes: contests" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.ContestService: contests" />
@@ -837,8 +848,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreationService#create_persists_contests_and_contestants_from_hash_of_attributes__contests - 2016.12.17 at 23h 48m 33s.xml">
-      <configuration name="CreationService#create persists contests and contestants from hash of attributes: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_Post__contests_creates_a_contest_and_associated_contestants__contests - 2016.12.18 at 13h 09m 46s.xml">
+      <configuration name="Contests API Post /contests creates a contest and associated contestants: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="CreationService#create_persists_contests_and_contestants_from_hash_of_attributes__contests - 2016.12.17 at 23h 53m 43s.xml">
       <configuration name="CreationService#create persists contests and contestants from hash of attributes: contests" configurationId="RSpecRunConfigurationType" />
@@ -879,7 +890,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -934,34 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contest.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/contestant.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -976,16 +963,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/services/creation_service_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3203252">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contest.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07317073">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/creation_service.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12357724">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.58699185">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>

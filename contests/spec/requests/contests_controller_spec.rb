@@ -4,7 +4,7 @@ describe "Contests API" do
   describe "Post /contests" do
     it "creates a contest and associated contestants" do
       request_body = {
-          category: "strength",
+          category: :strength,
           contestants: [
               {
                   pet_id: 1,
