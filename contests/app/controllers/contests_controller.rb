@@ -1,14 +1,24 @@
 class ContestsController < ApplicationController
   def create
-    contest = Contest.create!(contest_creation_params)
+    contest = CreationService.new.create(creation_params)
     render json: contest, status: :created
   end
 
   private
 
-  def contest_creation_params
+  def creation_params
     params.permit(
-        :category
+        :category,
+        contestants: [
+            :pet_id,
+            :name,
+            :strength,
+            :agility,
+            :wit,
+            :senses,
+            :experience,
+        ]
+
     )
   end
 end
