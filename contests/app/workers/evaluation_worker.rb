@@ -1,5 +1,6 @@
 class EvaluationWorker
   include Sidekiq::Worker
+  include Sidekiq::Status::Worker
 
   def perform(contest_id)
     category = Contest.find(contest_id).category.to_sym
@@ -11,7 +12,6 @@ class EvaluationWorker
   private
 
   def evaluate(category, contestants)
-    result = []
     if unequally_matched?(category, contestants)
       result = compare(category, contestants)
     elsif unequally_matched?(:experience, contestants)
@@ -25,7 +25,7 @@ class EvaluationWorker
 
   def compare(attribute, contestants)
     contestants.minmax_by do |c|
-      c[attribute]
+      c[attribute] = c[attribute] || 0
     end
   end
 

@@ -45,6 +45,7 @@ describe EvaluationWorker do
       contest = Contest.create!(category: :wit)
       Contestant.create!(
           pet_id: 1,
+          name: "Contestant 1",
           wit: 33,
           experience: 120,
           contest_id: contest.id,
@@ -53,6 +54,7 @@ describe EvaluationWorker do
 
       Contestant.create!(
           pet_id: 2,
+          name: "Contestant 2",
           wit: 33,
           experience: 130,
           contest_id: contest.id,
@@ -69,6 +71,7 @@ describe EvaluationWorker do
       contest = Contest.create!(category: :wit)
       Contestant.create!(
           pet_id: 1,
+          name: "Contestant 1",
           wit: 33,
           experience: 120,
           contest_id: contest.id,
@@ -77,6 +80,7 @@ describe EvaluationWorker do
 
       Contestant.create!(
           pet_id: 2,
+          name: "Contestant 2",
           wit: 33,
           experience: 120,
           contest_id: contest.id,
@@ -86,6 +90,32 @@ describe EvaluationWorker do
       EvaluationWorker.perform_async(contest.id)
 
       expect(Contestant.find_by(pet_id: 1).winner).to eq false
+      expect(Contestant.find_by(pet_id: 2).winner).to eq false
+    end
+
+    it "handles a contestant with a missing attribute" do
+      contest = Contest.create!(category: :wit)
+      Contestant.create!(
+          pet_id: 1,
+          name: "Contestant 1",
+          wit: 33,
+          experience: 120,
+          contest_id: contest.id,
+          winner: nil
+      )
+
+      Contestant.create!(
+          pet_id: 2,
+          name: "Contestant 2",
+          wit: nil,
+          experience: 120,
+          contest_id: contest.id,
+          winner: nil
+      )
+
+      EvaluationWorker.perform_async(contest.id)
+
+      expect(Contestant.find_by(pet_id: 1).winner).to eq true
       expect(Contestant.find_by(pet_id: 2).winner).to eq false
     end
   end

@@ -12,7 +12,9 @@ describe PetsController do
           experience: 100
       }.to_json
 
-      post "/pets", request_body, { "CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json" }
+
+      post "/pets", request_body, {"CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json"}
+
 
       expect(response.status).to eq 201
 
@@ -23,6 +25,23 @@ describe PetsController do
       expect(response_body[:wit]).to eq 33
       expect(response_body[:senses]).to eq 44
       expect(response_body[:experience]).to eq 100
+    end
+
+    it "renders errors" do
+      post "/pets", "", {"CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json"}
+
+
+      expect(response.status).to eq 422
+
+      response_body = JSON.parse(response.body)
+      expect(response_body).to match_array([
+                                               "Agility can't be blank",
+                                               "Experience can't be blank",
+                                               "Name can't be blank",
+                                               "Senses can't be blank",
+                                               "Strength can't be blank",
+                                               "Wit can't be blank"
+                                           ])
     end
   end
 end

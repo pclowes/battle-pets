@@ -1,8 +1,14 @@
 class ContestsController < ApplicationController
   def create
-    contest = CreationService.new.create(creation_params)
-    render json: contest, status: :created
+    response = CreationService.new.create(creation_params)
+
+    if response[:success]
+      render json: response[:entity], status: :processing
+    else
+      render json: response[:errors], status: :unprocessable_entity
+    end
   end
+
 
   private
 
