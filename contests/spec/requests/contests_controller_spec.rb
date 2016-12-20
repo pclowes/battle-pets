@@ -8,6 +8,10 @@ describe "Contests API" do
     end
 
     it "creates a contest and associated contestants" do
+      stub_request(:post, "https://localhost:3000/pets/contest_result").
+          with(:body => "{\"losers\":[1],\"winners\":[2]}").
+          to_return(:status => 200, :body => "", :headers => {})
+
       request_body = {
           category: :strength,
           contestants: [
@@ -45,6 +49,8 @@ describe "Contests API" do
 
       expect(Contest.count).to eq 1
       expect(Contestant.count).to eq 2
+      expect(Contestant.find_by(pet_id: 2).winner).to eq true
+      expect(Contestant.find_by(pet_id: 1).winner).to eq false
     end
 
     it "surfaces errors if creation fails" do

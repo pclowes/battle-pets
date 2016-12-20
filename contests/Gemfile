@@ -10,5 +10,6 @@ gem "sidekiq-status"
 
 group :development, :test do
   gem "rspec-rails", "~> 3.5"
+  gem "webmock", "2.3.1"
 end
 

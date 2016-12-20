@@ -44,4 +44,35 @@ describe PetsController do
                                            ])
     end
   end
+
+  describe "POST /pets/contest_result" do
+    it "updates pets based on contest results" do
+      winning_pet = Pet.create!(
+          name: "Winner",
+          strength: 99,
+          agility: 99,
+          wit: 99,
+          senses: 99,
+          experience: 100
+      )
+      losing_pet = Pet.create!(
+          name: "Loser",
+          strength: 1,
+          agility: 1,
+          wit: 1,
+          senses: 1,
+          experience: 100
+      )
+
+      request_body = {winners: [winning_pet.id], losers: [losing_pet.id]}.to_json
+
+
+      post "/pets/contest_result", request_body, {"CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json"}
+
+
+      expect(response.status).to eq 200
+      expect(winning_pet.reload.experience).to eq 115
+      expect(losing_pet.reload.experience).to eq 105
+    end
+  end
 end

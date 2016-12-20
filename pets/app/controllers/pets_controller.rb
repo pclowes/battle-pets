@@ -9,6 +9,11 @@ class PetsController < ApplicationController
     end
   end
 
+  def contest_result
+    ResultService.new.update(result_params)
+    render json: {message: "Results posted"}, status: :ok
+  end
+
   private
 
   def pet_creation_params
@@ -19,6 +24,13 @@ class PetsController < ApplicationController
         :wit,
         :senses,
         :experience,
+    )
+  end
+
+  def result_params
+    params.permit(
+        winners: [],
+        losers: []
     )
   end
 end
