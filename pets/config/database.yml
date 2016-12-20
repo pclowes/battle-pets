@@ -3,8 +3,6 @@ development:
   encoding: unicode
   database: pets_development
   pool: 5
-  username: pc
-  password:
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -16,8 +14,6 @@ test:
   encoding: unicode
   database: pets_test
   pool: 5
-  username: pc
-  password:
   timeout: 5000
 
 

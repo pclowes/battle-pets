@@ -2,7 +2,6 @@ Pet.destroy_all
 
 Pet.create!([
                 {
-                    id: 1,
                     name: "Pet 1",
                     strength: 11,
                     agility: 55,
@@ -11,7 +10,6 @@ Pet.create!([
                     experience: 115
                 },
                 {
-                    id: 2,
                     name: "Pet 2",
                     strength: 49,
                     agility: 33,
