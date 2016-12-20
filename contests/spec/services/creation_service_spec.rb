@@ -81,10 +81,28 @@ describe CreationService do
     expect(worker).to_not have_received(:perform_async)
 
     expect(service_response[:success]).to eq false
-    expect(service_response[:errors]).to match_array([
-                                                         "Category can't be blank",
-                                                         "Must have exactly two contestants"
-                                                     ])
+    expect(service_response[:errors]).to match_array(["Category can't be blank"])
+
+    expect(Contest.count).to eq 0
+    expect(Contestant.count).to eq 0
+  end
+
+  it "contests must have exactly 2 contestants" do
+    params = {
+        category: :strength,
+        contestants: [{}]
+    }
+
+    allow(worker).to receive(:perform_async).and_return("some_job_id")
+
+
+    service_response = CreationService.new.create(params)
+
+
+    expect(worker).to_not have_received(:perform_async)
+
+    expect(service_response[:success]).to eq false
+    expect(service_response[:errors]).to match_array(["Must have exactly two contestants"])
 
     expect(Contest.count).to eq 0
     expect(Contestant.count).to eq 0
@@ -111,5 +129,6 @@ describe CreationService do
                                                      ])
 
     expect(Contestant.count).to eq 0
+    expect(Contest.count).to eq 0
   end
 end

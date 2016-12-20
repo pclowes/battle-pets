@@ -25,11 +25,10 @@ class CreationService
 
   def valid_contestant_number?(contestants)
     if contestants.try(:length) != 2
-      @errors << "Must have exactly two contestants"
-      return false
-    else
-      true
+      @errors += ["Must have exactly two contestants"]
+      raise ActiveRecord::Rollback, @errors
     end
+    true
   end
 
   def create_contestants(contest_id, contestants)
@@ -44,6 +43,7 @@ class CreationService
       object.save!
     else
       @errors += object.errors.full_messages
+      raise ActiveRecord::Rollback, @errors
     end
   end
 end

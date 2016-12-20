@@ -47,7 +47,7 @@ describe "Contests API" do
       expect(Contestant.count).to eq 2
     end
 
-    it "renders errors if creation fails" do
+    it "surfaces errors if creation fails" do
       request_body = {
           category: nil,
           contestants: [
@@ -80,10 +80,7 @@ describe "Contests API" do
 
       expect(response.status).to eq 422
       response_body = JSON.parse(response.body, symbolize_names: true)
-      expect(response_body).to match_array([
-                                               "Category can't be blank",
-                                               "Contest can't be blank"
-                                           ])
+      expect(response_body).to match_array(["Category can't be blank"])
 
       expect(Contest.count).to eq 0
       expect(Contestant.count).to eq 0
