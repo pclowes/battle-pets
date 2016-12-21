@@ -3,7 +3,6 @@ require "uri"
 require "net/http"
 require "openssl"
 
-
 def post(url, body)
   uri = URI.parse(url)
   http = Net::HTTP.new(uri.host, uri.port)
@@ -79,12 +78,16 @@ contest_body = JSON.parse(contest_response.body, symbolize_names: true)
 job_id = contest_body[:job_id]
 p "Now the contest is processing in a sidekiq job with id: #{job_id}"
 
-sleep 5
-# p "We can check the status of that job with a request to the status endpoint"
-# first_status_response = get("http://localhost:3000/statuses", job_id)
-# first_status_body = JSON.parse(first_status_response.body, symbolize_names: true)
-#
-# p "It came back with: #{first_status_body[:message]}"
+
+p "We can poll the status of that job with requests to the status endpoint"
+message = ""
+while message != ("Contest complete" || "Contest failed")
+    status_response = get("http://localhost:3000/statuses", job_id: job_id)
+    status_body = JSON.parse(status_response.body, symbolize_names: true)
+    p "It came back with: #{status_body[:message]}"
+    message = status_body[:message]
+    sleep 1
+end
 
 p1_xp_response = get("http://localhost:4000/pets/#{pet1_id}", nil)
 p p1_xp_response
