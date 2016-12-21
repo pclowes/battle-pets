@@ -5,10 +5,12 @@
   - Ruby Version: 2.2.0
   - Database: Postgresql
   - Testing: Rspec
+  - Asynchronous Jobs: Sidekiq
    
 * run `bundle install`
-* Make sure when you start the server you use a port other than 3000 as that is hardcoded when posting
-  contest results to the pets API
+* Make sure when you start the server you use port 3000 for contests (port 4000 for pets)
+  contest results to the pets API `rails s -p 3000`
+* This application uses sidekiq for async processing, start the sidekiq worker with: `bundle exec sidekiq`  
 * Testing: run tests in terminal with `rake spec`
 * run `rake db:seed` to seed your database
 

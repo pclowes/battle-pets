@@ -6,7 +6,7 @@ class StatusesController < ApplicationController
     elsif Sidekiq::Status::failed?(job_id)
       render json: {message: "Contest failed"}, status: :internal_server_error
     else
-      render json: {message: "Contest processing"}, status: :processing
+      render json: {message: "Contest processing"}, status: :accepted
     end
   end
 end

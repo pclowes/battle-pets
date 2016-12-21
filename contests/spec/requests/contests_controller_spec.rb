@@ -8,9 +8,10 @@ describe "Contests API" do
     end
 
     it "creates a contest and associated contestants" do
-      stub_request(:post, "https://localhost:3000/pets/contest_result").
+      stub_request(:post, "http://localhost:4000/pets/contest_result").
           with(:body => "{\"losers\":[1],\"winners\":[2]}").
           to_return(:status => 200, :body => "", :headers => {})
+
 
       request_body = {
           category: :strength,
@@ -42,7 +43,7 @@ describe "Contests API" do
       post "/contests", request_body, {"CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json"}
 
 
-      expect(response.status).to eq 102 #processing
+      expect(response.status).to eq 202
       response_body = JSON.parse(response.body, symbolize_names: true)
       expect(response_body[:contest][:category]).to eq "strength"
       expect(response_body[:job_id]).to_not be_nil

@@ -2,6 +2,7 @@ class EvaluationWorker
   include Sidekiq::Worker
   include Sidekiq::Status::Worker
 
+
   def perform(contest_id)
     category = Contest.find(contest_id).category.to_sym
     contestants = Contestant.where(contest_id: contest_id)
@@ -10,6 +11,7 @@ class EvaluationWorker
     update_contestants(result)
 
     formatted_result = format(result)
+
     PetsService.new.post_result(formatted_result)
   end
 

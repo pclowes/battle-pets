@@ -9,7 +9,7 @@ describe "Statuses API" do
 
       get "/statuses", {job_id: job_id}
 
-      expect(response.status).to eq 102
+      expect(response.status).to eq 202
       response_body = JSON.parse(response.body, symbolize_names: true)
       expect(response_body[:message]).to eq "Contest processing"
     end

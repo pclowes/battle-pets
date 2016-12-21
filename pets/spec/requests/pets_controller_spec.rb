@@ -75,4 +75,31 @@ describe PetsController do
       expect(losing_pet.reload.experience).to eq 105
     end
   end
+
+  describe "GET /pets/id" do
+    it "gets a specific pet" do
+      pet = Pet.create!(
+          name: "A pet",
+          strength: 11,
+          agility: 22,
+          wit: 33,
+          senses: 44,
+          experience: 100
+      )
+
+      get "/pets/#{pet.id}", {}, {"CONTENT_TYPE" => "application/json", "ACCEPT" => "application/json"}
+
+      expect(response.status).to eq 200
+
+      body = JSON.parse(response.body, symbolize_names: true)
+      expect(body.keys).to match_array([:agility, :created_at, :experience, :id, :name, :senses, :strength, :updated_at, :wit])
+
+      expect(body[:name]).to eq "A pet"
+      expect(body[:strength]).to eq 11
+      expect(body[:agility]).to eq 22
+      expect(body[:wit]).to eq 33
+      expect(body[:senses]).to eq 44
+      expect(body[:experience]).to eq 100
+    end
+  end
 end

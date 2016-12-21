@@ -1,4 +1,6 @@
 class PetsController < ApplicationController
+  protect_from_forgery with: :null_session, if: Proc.new { |c| c.request.format == 'application/json' }
+
   def create
     pet = Pet.new(pet_creation_params)
 
@@ -7,6 +9,10 @@ class PetsController < ApplicationController
     else
       render json: pet.errors.full_messages, status: :unprocessable_entity
     end
+  end
+
+  def show
+    render json: Pet.find(params[:id])
   end
 
   def contest_result
