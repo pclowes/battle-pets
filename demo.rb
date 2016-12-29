@@ -57,21 +57,30 @@ pet2_body = JSON.parse(pet2_response.body, symbolize_names: true)
 p "Pet #2: #{pet2_body}"
 
 p "Now that we have two pets we will have them compete in a strength contest with a post to contests api"
+p "We will just post the contest category and the pet_ids to the contests API it will get the pets from"
+p "The pets API during contest evaluation"
 p "Pet #1 has a strength of #{pet1[:strength]} and experience of #{pet1[:experience]}"
 p "Pet #2 has a strength of #{pet2[:strength]} and experience of #{pet2[:experience]}"
 p "We expect Pet #1 to win the strength competition and gain 15xp"
 p "We expect Pet #2 to lose the strength competition and gain 5xp"
 
 pet1_id = pet1_body[:id]
-contestant1 = pet1.merge(pet_id: pet1_id)
 pet2_id = pet2_body[:id]
-contestant2 = pet2.merge(pet_id: pet2_id)
-p contestant1
-p contestant2
 contest = {
     category: "strength",
-    contestants: [contestant1, contestant2]
+    pet_ids: [pet1_id, pet2_id]
 }
+body = {pet_ids: [pet1_id, pet2_id]}
+# p body
+# p "getting multiple pets"
+# pets_response = get("http://localhost:4000/pets", body)
+# p pets_response
+# pets_body = JSON.parse(pets_response.body, symbolize_names: true)
+# p pets_body
+# p "we only get 2 back"
+# p pets_body.length
+p "here is the body of what we are posting to the contests API"
+p contest
 
 contest_response = post("http://localhost:3000/contests", contest)
 contest_body = JSON.parse(contest_response.body, symbolize_names: true)

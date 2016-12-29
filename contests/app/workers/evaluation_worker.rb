@@ -2,66 +2,71 @@ class EvaluationWorker
   include Sidekiq::Worker
   include Sidekiq::Status::Worker
 
-
   def perform(contest_id)
-    category = Contest.find(contest_id).category.to_sym
-    contestants = Contestant.where(contest_id: contest_id)
+    contest = Contest.find(contest_id)
+    category = contest.category.to_sym
+    pet_ids = contest.pet_ids
 
-    result = evaluate(category, contestants)
-    update_contestants(result)
+    contestants = PetsService.new.get_pets({pet_ids: pet_ids})
+    teams = balance_teams(category, contestants)
+    result = evaluate(category, teams)
 
-    formatted_result = format(result)
-
-    PetsService.new.post_result(formatted_result)
+    PetsService.new.post_result(result)
   end
 
   private
 
-  def evaluate(category, contestants)
-    if unequally_matched?(category, contestants)
-      result = compare(category, contestants)
-    elsif unequally_matched?(:experience, contestants)
-      result = compare(:experience, contestants)
+  def evaluate(category, teams)
+    if unequally_matched?(category, teams)
+      result = compare(category, teams)
+    elsif unequally_matched?(:experience, teams)
+      result = compare(:experience, teams)
     else
-      result = tie_game(contestants)
+      result = tie_game(teams)
     end
 
     result
   end
 
-  def compare(attribute, contestants)
-    sorted_array = contestants.minmax_by do |c|
+  def balance_teams(category, contestants)
+    sorted_contestants = contestants.sort_by { |x| x[category] }
+    team1_contestants = sorted_contestants.select { |x| sorted_contestants.index(x).even? }
+    team2_contestants = sorted_contestants - team1_contestants
+
+    team1 = teamwide_stats(category, team1_contestants)
+    team2 = teamwide_stats(category, team2_contestants)
+    [team1, team2]
+  end
+
+  def teamwide_stats(category, team)
+    stats = {
+        category.to_s => team.inject(0) { |sum, hash| sum + hash[category] },
+        experience: team.inject(0) { |sum, hash| sum + hash[:experience] },
+        pet_ids: team.map { |c| c[:id] }
+    }
+    stats.symbolize_keys!
+  end
+
+  def compare(attribute, teams)
+    sorted_array = teams.minmax_by do |c|
       c[attribute] = c[attribute] || 0
     end
 
-    return { losers: [sorted_array.first], winners: [sorted_array.last] }
+    return {losers: sorted_array.first[:pet_ids], winners: sorted_array.last[:pet_ids]}
   end
 
-  def tie_game(contestants)
-    return { losers: contestants.to_a, winners: [] }
+  def tie_game(teams)
+    pet_ids = []
+    teams.each do |t|
+      pet_ids += t[:pet_ids]
+    end
+    return {losers: pet_ids, winners: []}
   end
 
-  def unequally_matched?(attribute, contestants)
-    contestant1_score = contestants.first[attribute]
-    contestant2_score = contestants.last[attribute]
+  def unequally_matched?(attribute, teams)
+    contestant1_score = teams.first[attribute]
+    contestant2_score = teams.last[attribute]
 
     contestant1_score != contestant2_score
-  end
-
-  def update_contestants(result)
-    result[:losers].each do |c|
-      c.update_attributes(winner: false)
-    end
-
-    result[:winners].each do |c|
-      c.update_attributes(winner: true)
-    end
-  end
-
-  def format(result)
-    losing_pet_ids = result[:losers].map(&:pet_id)
-    winning_pet_ids = result[:winners].map(&:pet_id)
-
-    {losers: losing_pet_ids, winners: winning_pet_ids}
   end
 end

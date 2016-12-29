@@ -11,6 +11,14 @@ class PetsController < ApplicationController
     end
   end
 
+  def index
+    pets = Pet.all
+    if params[:pet_ids]
+      pets = pets.where("id IN (?)", params[:pet_ids])
+    end
+    render json: pets, status: :ok
+  end
+
   def show
     render json: Pet.find(params[:id])
   end

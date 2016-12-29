@@ -16,4 +16,16 @@ describe PetsService do
       expect(response.class).to eq(Net::HTTPOK)
     end
   end
+
+  describe "#get_pets" do
+    it "takes an array of pet_ids and GETs them from the pets api" do
+      stub_request(:post, "http://localhost:4000/pets/contest_result").
+          with(:body => "{\"pet_ids\":[1,2,3]}").
+          to_return(:status => 200, :body => "", :headers => {})
+
+      response = PetsService.new.post_result({pet_ids: [1, 2, 3]})
+
+      expect(response.class).to eq(Net::HTTPOK)
+    end
+  end
 end

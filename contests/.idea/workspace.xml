@@ -19,16 +19,18 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_a_category__contests.coverage" NAME="CreationService contests must have a category: contests Coverage Results" MODIFIED="1482120637118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant__contests.coverage" NAME="EvaluationWorker evaluates all contest categories and updates the winning contestant: contests Coverage Results" MODIFIED="1482204831093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_a_category__contests.coverage" NAME="CreationService contests must have a category: contests Coverage Results" MODIFIED="1482802616971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests_creates_a_contest_and_associated_contestants__contests.coverage" NAME="Contests API POST /contests creates a contest and associated contestants: contests Coverage Results" MODIFIED="1482297561253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests__job_id_fetch_returns_a_status_of_accepted_for_an_ongoing_asynchronous_job__contests.coverage" NAME="Contests API POST /contests/:job_id/fetch returns a status of accepted for an ongoing asynchronous job: contests Coverage Results" MODIFIED="1482110564483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@CreationService_create__contests.coverage" NAME="CreationService#create: contests Coverage Results" MODIFIED="1482119735018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Development__contests.coverage" NAME="Development: contests Coverage Results" MODIFIED="1482291080885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@CreationService_create__contests.coverage" NAME="CreationService#create: contests Coverage Results" MODIFIED="1482973950677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_surfaces_errors_and_does_not_call_the_evaluation_worker_if_there_are_any__contests.coverage" NAME="CreationService surfaces errors and does not call the evaluation worker if there are any: contests Coverage Results" MODIFIED="1482117326631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API__contests.coverage" NAME="Contests API: contests Coverage Results" MODIFIED="1482285581979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Statuses_API__contests.coverage" NAME="Statuses API: contests Coverage Results" MODIFIED="1482114981891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@CreationService__contests.coverage" NAME="CreationService: contests Coverage Results" MODIFIED="1482125454841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@CreationService__contests.coverage" NAME="CreationService: contests Coverage Results" MODIFIED="1482974247237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@PetsService_get_pets_takes_an_array_of_pet_ids_and_GETs_them_from_the_pets_api__contests.coverage" NAME="PetsService#get_pets takes an array of pet_ids and GETs them from the pets api: contests Coverage Results" MODIFIED="1482977394856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@PetsService_get_pets__contests.coverage" NAME="PetsService#get_pets: contests Coverage Results" MODIFIED="1482981122326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_create_persists_contests_and_contestants_from_hash_of_attributes__contests.coverage" NAME="CreationService#create persists contests and contestants from hash of attributes: contests Coverage Results" MODIFIED="1482044257221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@PetsService_post_result_takes_a_result_and_posts_it_to_the_pets_api_results_endpoint__contests.coverage" NAME="PetsService#post_result takes a result and posts it to the pets api results endpoint: contests Coverage Results" MODIFIED="1482212894651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_create_persists_contests_and_contestants__calls_the_evaluation_worker__returns_service_response__contests.coverage" NAME="CreationService#create persists contests and contestants, calls the evaluation worker, returns service response: contests Coverage Results" MODIFIED="1482118914487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
@@ -36,7 +38,7 @@
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_a_contest_and_returns_a_winner__contests.coverage" NAME="EvaluationWorker evaluates a contest and returns a winner: contests Coverage Results" MODIFIED="1482095203282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_Post__contests_creates_a_contest__contests.coverage" NAME="Contests API Post /contests creates a contest: contests Coverage Results" MODIFIED="1482009303535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_contestants_must_have_a_pet_id__name__and_contest_id__contests.coverage" NAME="CreationService contestants must have a pet_id, name, and contest_id: contests Coverage Results" MODIFIED="1482124525360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@PetsService__contests.coverage" NAME="PetsService: contests Coverage Results" MODIFIED="1482209808437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@PetsService__contests.coverage" NAME="PetsService: contests Coverage Results" MODIFIED="1482980733640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@ContestService__contests.coverage" NAME="ContestService: contests Coverage Results" MODIFIED="1482012587332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_a_pet_id__name__and_contest_id__contests.coverage" NAME="CreationService contests must have a pet_id, name, and contest_id: contests Coverage Results" MODIFIED="1482120917147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@ContestantService__contests.coverage" NAME="ContestantService: contests Coverage Results" MODIFIED="1482010673823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
@@ -44,27 +46,35 @@
     <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_a_exactly_2_contestants_with_a_pet_id_and_name__contests.coverage" NAME="CreationService contests must have a exactly 2 contestants with a pet_id and name: contests Coverage Results" MODIFIED="1482118841765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests__job_id_fetch_returns_a_status_of_ok_for_a_completed_asynchronous_job__contests.coverage" NAME="Contests API POST /contests/:job_id/fetch returns a status of ok for a completed asynchronous job: contests Coverage Results" MODIFIED="1482113113903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests_renders_errors_if_creation_fails__contests.coverage" NAME="Contests API POST /contests renders errors if creation fails: contests Coverage Results" MODIFIED="1482114230578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@Run_spec__creation_service_spec___contests.coverage" NAME="Run spec 'creation_service_spec': contests Coverage Results" MODIFIED="1482124561269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@Run_spec__creation_service_spec___contests.coverage" NAME="Run spec 'creation_service_spec': contests Coverage Results" MODIFIED="1482801973925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_contest__updates_contestants__post_results_to_service_handles_a_tie_across_category_and_experience__contests.coverage" NAME="EvaluationWorker evaluates contest, updates contestants, post results to service handles a tie across category and experience: contests Coverage Results" MODIFIED="1482207608859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@sidekiq.coverage" NAME="sidekiq Coverage Results" MODIFIED="1482291204575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests_surfaces_errors_if_creation_fails__contests.coverage" NAME="Contests API POST /contests surfaces errors if creation fails: contests Coverage Results" MODIFIED="1482983441787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_one_versus_one_contest_uses_experience_as_the_tiebreaker_if_there_is_a_tie__contests.coverage" NAME="EvaluationWorker#perform one versus one contest uses experience as the tiebreaker if there is a tie: contests Coverage Results" MODIFIED="1482982844186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_a_exactly_2_contestants__contests.coverage" NAME="CreationService contests must have a exactly 2 contestants: contests Coverage Results" MODIFIED="1482118081220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant_handles_a_contestant_with_a_missing_attribute__contests.coverage" NAME="EvaluationWorker evaluates all contest categories and updates the winning contestant handles a contestant with a missing attribute: contests Coverage Results" MODIFIED="1482120346723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@ContestService_create_persists_contestants_from_hash_of_attributes__contests.coverage" NAME="ContestService#create persists contestants from hash of attributes: contests Coverage Results" MODIFIED="1482013203210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests_creates_a_contest__contests.coverage" NAME="Contests API POST /contests creates a contest: contests Coverage Results" MODIFIED="1482985788659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@PetsService_post_result__contests.coverage" NAME="PetsService#post_result: contests Coverage Results" MODIFIED="1482287112706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@PetsService_post_result_queries_FactoryGirl_contributors_on_GitHub__contests.coverage" NAME="PetsService#post_result queries FactoryGirl contributors on GitHub: contests Coverage Results" MODIFIED="1482208270803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@PetsService_post_result_takes_a_result_and_posts_winners_and_losers_to_the_pets_api__contests.coverage" NAME="PetsService#post_result takes a result and posts winners and losers to the pets api: contests Coverage Results" MODIFIED="1482209694688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_team_versus_team__contests.coverage" NAME="EvaluationWorker#perform team versus team: contests Coverage Results" MODIFIED="1482983583890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests__job_id_fetch_returns_a_status_of_failed_if_for_a_failed_asynchronous_job__contests.coverage" NAME="Contests API POST /contests/:job_id/fetch returns a status of failed if for a failed asynchronous job: contests Coverage Results" MODIFIED="1482111337341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_one_versus_one_contest__sets_the_contestant_with_the_higher___category__level_as_the_winner___contests.coverage" NAME="EvaluationWorker#perform one versus one contest &quot;sets the contestant with the higher #{category} level as the winner&quot;: contests Coverage Results" MODIFIED="1482982617152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_create_persists_contests_and_contestants_and_calls_the_evaluation_worker__contests.coverage" NAME="CreationService#create persists contests and contestants and calls the evaluation worker: contests Coverage Results" MODIFIED="1482105830174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Run_spec__evaluation_worker_spec___contests.coverage" NAME="Run spec 'evaluation_worker_spec': contests Coverage Results" MODIFIED="1482207835664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_a_contest_and_updates_the_winning_contestant__contests.coverage" NAME="EvaluationWorker evaluates a contest and updates the winning contestant: contests Coverage Results" MODIFIED="1482099041391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
-    <SUITE FILE_PATH="coverage/contests@EvaluationWorker__contests.coverage" NAME="EvaluationWorker: contests Coverage Results" MODIFIED="1482207560502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker__contests.coverage" NAME="EvaluationWorker: contests Coverage Results" MODIFIED="1482984685672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant_handles_an_tie_across_category_and_experience__contests.coverage" NAME="EvaluationWorker evaluates all contest categories and updates the winning contestant handles an tie across category and experience: contests Coverage Results" MODIFIED="1482102801954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant__sets_the_contestant_with_the_higher___category__level_as_the_winner___contests.coverage" NAME="EvaluationWorker evaluates all contest categories and updates the winning contestant &quot;sets the contestant with the higher #{category} level as the winner&quot;: contests Coverage Results" MODIFIED="1482204330268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Statuses_API_POST__statuses__job_id_fetch_returns_a_status_of_ok_for_a_completed_asynchronous_job__contests.coverage" NAME="Statuses API POST /statuses/:job_id/fetch returns a status of ok for a completed asynchronous job: contests Coverage Results" MODIFIED="1482114886044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant_handles_a_tie_across_category_and_experience__contests.coverage" NAME="EvaluationWorker evaluates all contest categories and updates the winning contestant handles a tie across category and experience: contests Coverage Results" MODIFIED="1482203955767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_one_versus_one_contest__contests.coverage" NAME="EvaluationWorker#perform one versus one contest: contests Coverage Results" MODIFIED="1482982904308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@CreationService_contests_must_have_exactly_2_contestants__contests.coverage" NAME="CreationService contests must have exactly 2 contestants: contests Coverage Results" MODIFIED="1482125106643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_Post__contests_creates_a_contest_and_associated_contestants__contests.coverage" NAME="Contests API Post /contests creates a contest and associated contestants: contests Coverage Results" MODIFIED="1482105293483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_contest__updates_contestants__post_results_to_service_uses_experience_as_the_tiebreaker_if_there_is_a_tie__contests.coverage" NAME="EvaluationWorker evaluates contest, updates contestants, post results to service uses experience as the tiebreaker if there is a tie: contests Coverage Results" MODIFIED="1482207510568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_one_versus_one_contest_handles_a_tie_across_category_and_experience__contests.coverage" NAME="EvaluationWorker#perform one versus one contest handles a tie across category and experience: contests Coverage Results" MODIFIED="1482973422296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
+    <SUITE FILE_PATH="coverage/contests@EvaluationWorker_perform_team_versus_team_evaluates_teams_by_balancing_them_and_treating_them_as_aggregate_competitors__contests.coverage" NAME="EvaluationWorker#perform team versus team evaluates teams by balancing them and treating them as aggregate competitors: contests Coverage Results" MODIFIED="1482972305066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@Contests_API_POST__contests__job_id_fetch_returns_a_status_of_failed_for_a_failed_asynchronous_job__contests.coverage" NAME="Contests API POST /contests/:job_id/fetch returns a status of failed for a failed asynchronous job: contests Coverage Results" MODIFIED="1482111556073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_contest__updates_contestants__post_results_to_service_handles_a_contestant_with_a_missing_attribute__contests.coverage" NAME="EvaluationWorker evaluates contest, updates contestants, post results to service handles a contestant with a missing attribute: contests Coverage Results" MODIFIED="1482207725092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
     <SUITE FILE_PATH="coverage/contests@EvaluationWorker_evaluates_contest__updates_contestants__post_results_to_service__contests.coverage" NAME="EvaluationWorker evaluates contest, updates contestants, post results to service: contests Coverage Results" MODIFIED="1482205406846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="contests" />
@@ -78,18 +88,82 @@
     <favorites_list name="contests" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="statuses_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/statuses_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08163265">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+                <state split_layout="FIRST">
+                  <first_editor vertical-scroll-proportion="0.75536484">
+                    <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pets_service.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/services/pets_service.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.525">
+                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contests_controller.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="evaluation_worker.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/workers/evaluation_worker.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="contests_controller_spec.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.0230769">
+                  <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/schema.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,25 +183,26 @@
         <option value="$PROJECT_DIR$/spec/support/sidekiq.rb" />
         <option value="$PROJECT_DIR$/app/models/contestant.rb" />
         <option value="$PROJECT_DIR$/app/models/contest.rb" />
-        <option value="$PROJECT_DIR$/spec/services/creation_service_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/workers/evaluation_worker_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/spec/requests/statuses_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/services/pets_service_spec.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_43" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_44" />
-        <option value="$PROJECT_DIR$/app/controllers/contests_controller.rb" />
-        <option value="$PROJECT_DIR$/app/workers/evaluation_worker.rb" />
-        <option value="$PROJECT_DIR$/app/services/pets_service.rb" />
-        <option value="$PROJECT_DIR$/app/services/creation_service.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/contests_controller_spec.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/statuses_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
+        <option value="$PROJECT_DIR$/spec/services/creation_service_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20161229011916_add_pet_ids_winners_losers_to_contests_remove_contestants.rb" />
+        <option value="$PROJECT_DIR$/spec/services/pets_service_spec.rb" />
+        <option value="$PROJECT_DIR$/app/services/creation_service.rb" />
+        <option value="$PROJECT_DIR$/spec/workers/evaluation_worker_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/contests_controller.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/services/pets_service.rb" />
+        <option value="$PROJECT_DIR$/app/workers/evaluation_worker.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/contests_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -144,6 +219,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
@@ -173,7 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,9 +315,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,8 +367,8 @@
       <recent name="$PROJECT_DIR$/app/controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Contests API POST /contests creates a contest and associated contestants: contests">
-    <configuration default="false" name="PetsService#post_result: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.Contests API POST /contests creates a contest: contests">
+    <configuration default="false" name="EvaluationWorker: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="contests" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -280,10 +388,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/pets_service_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/workers/evaluation_worker_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PetsService#post_result" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="EvaluationWorker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -294,7 +402,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PetsService: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="EvaluationWorker#perform one versus one contest: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="contests" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -314,10 +422,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/pets_service_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/workers/evaluation_worker_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PetsService" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="EvaluationWorker#perform one versus one contest" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -328,41 +436,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PetsService#post_result takes a result and posts it to the pets api results endpoint: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="contests" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/pets_service_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PetsService#post_result takes a result and posts it to the pets api results endpoint" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Contests API: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="Contests API POST /contests surfaces errors if creation fails: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="contests" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -385,7 +459,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/contests_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Contests API" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Contests API POST /contests surfaces errors if creation fails" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -396,7 +470,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Contests API POST /contests creates a contest and associated contestants: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="Contests API POST /contests creates a contest: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="contests" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -419,7 +493,41 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/contests_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Contests API POST /contests creates a contest and associated contestants" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Contests API POST /contests creates a contest" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EvaluationWorker#perform team versus team: contests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="contests" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/workers/evaluation_worker_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="EvaluationWorker#perform team versus team" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -663,19 +771,19 @@
       <item index="2" class="java.lang.String" itemvalue="Rails.Development: contests" />
       <item index="3" class="java.lang.String" itemvalue="Rake.test: contests" />
       <item index="4" class="java.lang.String" itemvalue="Rake.spec: contests" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.PetsService#post_result: contests" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.PetsService: contests" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.PetsService#post_result takes a result and posts it to the pets api results endpoint: contests" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Contests API: contests" />
-      <item index="9" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests creates a contest and associated contestants: contests" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.EvaluationWorker: contests" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.EvaluationWorker#perform one versus one contest: contests" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests surfaces errors if creation fails: contests" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests creates a contest: contests" />
+      <item index="9" class="java.lang.String" itemvalue="RSpec.EvaluationWorker#perform team versus team: contests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests creates a contest and associated contestants: contests" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Contests API: contests" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.PetsService#post_result takes a result and posts it to the pets api results endpoint: contests" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.PetsService: contests" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.PetsService#post_result: contests" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests creates a contest: contests" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.EvaluationWorker: contests" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.EvaluationWorker#perform team versus team: contests" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Contests API POST /contests surfaces errors if creation fails: contests" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.EvaluationWorker#perform one versus one contest: contests" />
       </list>
     </recent_temporary>
   </component>
@@ -693,59 +801,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Contests_API_POST__contests_creates_a_contest_and_associated_contestants__contests - 2016.12.20 at 20h 46m 09s.xml">
-      <configuration name="Contests API POST /contests creates a contest and associated contestants: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_POST__contests_creates_a_contest__contests - 2016.12.28 at 21h 27m 32s.xml">
+      <configuration name="Contests API POST /contests creates a contest: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Contests_API_POST__contests_creates_a_contest_and_associated_contestants__contests - 2016.12.20 at 20h 46m 24s.xml">
-      <configuration name="Contests API POST /contests creates a contest and associated contestants: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_POST__contests_creates_a_contest__contests - 2016.12.28 at 21h 28m 12s.xml">
+      <configuration name="Contests API POST /contests creates a contest: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Contests_API_POST__contests_creates_a_contest_and_associated_contestants__contests - 2016.12.20 at 20h 46m 35s.xml">
-      <configuration name="Contests API POST /contests creates a contest and associated contestants: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_POST__contests_creates_a_contest__contests - 2016.12.28 at 21h 28m 55s.xml">
+      <configuration name="Contests API POST /contests creates a contest: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Contests_API_POST__contests_creates_a_contest_and_associated_contestants__contests - 2016.12.20 at 20h 46m 45s.xml">
-      <configuration name="Contests API POST /contests creates a contest and associated contestants: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_POST__contests_creates_a_contest__contests - 2016.12.28 at 21h 29m 12s.xml">
+      <configuration name="Contests API POST /contests creates a contest: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Contests_API__contests - 2016.12.20 at 18h 59m 47s.xml">
-      <configuration name="Contests API: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Contests_API_POST__contests_creates_a_contest__contests - 2016.12.28 at 21h 29m 53s.xml">
+      <configuration name="Contests API POST /contests creates a contest: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="EvaluationWorker_evaluates_all_contest_categories_and_updates_the_winning_contestant_uses_experience_as_the_tiebreaker_if_there_is_a_tie__contests - 2016.12.20 at 20h 39m 58s.xml">
-      <configuration name="EvaluationWorker evaluates all contest categories and updates the winning contestant uses experience as the tiebreaker if there is a tie: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="EvaluationWorker#perform_team_versus_team__contests - 2016.12.28 at 20h 53m 08s.xml">
+      <configuration name="EvaluationWorker#perform team versus team: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetsService#post_result__contests - 2016.12.20 at 19h 24m 43s.xml">
-      <configuration name="PetsService#post_result: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="EvaluationWorker__contests - 2016.12.28 at 21h 02m 08s.xml">
+      <configuration name="EvaluationWorker: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetsService#post_result__contests - 2016.12.20 at 19h 24m 54s.xml">
-      <configuration name="PetsService#post_result: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="EvaluationWorker__contests - 2016.12.28 at 21h 09m 04s.xml">
+      <configuration name="EvaluationWorker: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetsService#post_result__contests - 2016.12.20 at 19h 25m 17s.xml">
-      <configuration name="PetsService#post_result: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="EvaluationWorker__contests - 2016.12.28 at 21h 10m 10s.xml">
+      <configuration name="EvaluationWorker: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="PetsService#post_result_takes_a_result_and_posts_it_to_the_pets_api_results_endpoint__contests - 2016.12.19 at 22h 48m 17s.xml">
-      <configuration name="PetsService#post_result takes a result and posts it to the pets api results endpoint: contests" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="EvaluationWorker__contests - 2016.12.28 at 21h 11m 31s.xml">
+      <configuration name="EvaluationWorker: contests" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="5" y="23" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21299255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4290188" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41231734" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -761,11 +869,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="66" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/statuses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161216235815_create_contests.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -799,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24813433">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2835821">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,14 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33208954">
           <caret line="637" column="6" selection-start-line="637" selection-start-column="6" selection-end-line="637" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39738807">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -843,14 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/services/creation_service_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/2.2.0/uri/common.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50932837">
@@ -863,14 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/workers/evaluation_worker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,35 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/services/pets_service_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.3153527">
-            <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,22 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -975,14 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22014925">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/pets_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13868614">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1003,26 +1040,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/evaluation_worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0054744524">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/creation_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24270073">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/statuses_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08163265">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161229011916_add_pet_ids_winners_losers_to_contests_remove_contestants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25576922">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/pets_service_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/workers/evaluation_worker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.109615386">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.75536484">
+            <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/workers/evaluation_worker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/pets_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.525">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/contests_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0230769">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding />
         </state>
       </provider>

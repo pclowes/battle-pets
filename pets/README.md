@@ -14,9 +14,7 @@
 
 ### Notes
 
-* Pets Controller: just has the bare endpoints required for the challenge. Could have a GET
-  endpoint so that the Contests API can get contestants from the Pets API by id instead of
-  receiving the contestants with the contest creation.
+* Pets Controller: endpoints to create, get, and post contest results to pets.
   
 * Result Service: although a very small service, I didn't want to have business logic of any
   kind in the controller
